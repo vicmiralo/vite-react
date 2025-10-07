@@ -316,63 +316,72 @@ const Presentation = () => {
           </h2>
           <div className="grid grid-cols-2 gap-4">
             {/* Rehabilitación motora */}
+
             <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
-              <img
-                src="/rehabilitacion.jpg"
-                alt="Rehabilitación motora"
-                className="w-full h-40 object-cover rounded-lg mb-3"
-              />
-              <h4 className="font-bold text-lg text-purple-800 mb-2">
-                Rehabilitación motora
-              </h4>
-              <p className="text-sm">
-                Biofeedback en fisioterapia y monitorización en tiempo real
-              </p>
+              <div className="flex flex-col items-center justify-center h-full space-y-6">
+                <img
+                  src="/rehabilitacion.jpg"
+                  alt="Rehabilitación motora"
+                  className="w-50 h-40 object-cover rounded-lg mb-3"
+                />
+                <h4 className="font-bold text-lg text-purple-800 mb-2">
+                  Rehabilitación motora
+                </h4>
+                <p className="text-sm">
+                  Biofeedback en fisioterapia y monitorización en tiempo real
+                </p>
+              </div>
             </div>
 
             {/* Control protésico */}
             <div className="bg-red-50 p-4 rounded-lg border-l-4 border-red-600">
-              <img
-                src="/protesis.jpg"
-                alt="Control protésico"
-                className="w-full h-40 object-cover rounded-lg mb-3"
-              />
-              <h4 className="font-bold text-lg text-red-800 mb-2">
-                Control protésico
-              </h4>
-              <p className="text-sm">
-                Prótesis mioeléctricas con movimientos naturales e intuitivos
-              </p>
+              <div className="flex flex-col items-center justify-center h-full space-y-6">
+                <img
+                  src="/protesis.jpg"
+                  alt="Control protésico"
+                  className="w-70 h-40 object-cover rounded-lg mb-3"
+                />
+                <h4 className="font-bold text-lg text-red-800 mb-2">
+                  Control protésico
+                </h4>
+                <p className="text-sm">
+                  Prótesis mioeléctricas con movimientos naturales e intuitivos
+                </p>
+              </div>
             </div>
 
             {/* Interfaces HMI */}
             <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
-              <img
-                src="/hmi.jpg"
-                alt="Interfaces HMI"
-                className="w-full h-40 object-cover rounded-lg mb-3"
-              />
-              <h4 className="font-bold text-lg text-blue-800 mb-2">
-                Interfaces HMI
-              </h4>
-              <p className="text-sm">
-                Control de drones, realidad virtual (ej: Myo Armband)
-              </p>
+              <div className="flex flex-col items-center justify-center h-full space-y-6">
+                <img
+                  src="/hmi.jpg"
+                  alt="Interfaces HMI"
+                  className="w-70 h-40 object-cover rounded-lg mb-3"
+                />
+                <h4 className="font-bold text-lg text-blue-800 mb-2">
+                  Interfaces HMI
+                </h4>
+                <p className="text-sm">
+                  Control de drones, realidad virtual (ej: Myo Armband)
+                </p>
+              </div>
             </div>
 
             {/* Robótica asistiva */}
-            <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-600">
-              <img
-                src="/robotica.jpg"
-                alt="Robótica asistiva"
-                className="w-full h-40 object-cover rounded-lg mb-3"
-              />
-              <h4 className="font-bold text-lg text-green-800 mb-2">
-                Robótica asistiva
-              </h4>
-              <p className="text-sm">
-                Exoesqueletos y órtesis activas para apoyo motor
-              </p>
+            <div className="bg-green-50 p-4 rounded-lg  border-l-4 border-green-600">
+              <div className="flex flex-col items-center justify-center h-full space-y-6">
+                <img
+                  src="/robotica.jpg"
+                  alt="Robótica asistiva"
+                  className="w-70 h-40 object-cover text crounded-lg mb-3"
+                />
+                <h4 className="font-bold text-lg text-green-800 mb-2">
+                  Robótica asistiva
+                </h4>
+                <p className="text-sm">
+                  Exoesqueletos y órtesis activas para apoyo motor
+                </p>
+              </div>
             </div>
           </div>
           <div className="bg-yellow-50 p-4 rounded-lg border-2 border-yellow-400 mt-6">
@@ -1024,51 +1033,51 @@ const Presentation = () => {
       ),
     },
     {
-  title: "Demostración Práctica",
-  content: (
-    <div className="flex flex-col items-center justify-center h-full space-y-8">
-      <h2 className="text-4xl font-bold text-blue-800 text-center">
-        Verificación del sistema en funcionamiento
-      </h2>
-      <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-8 rounded-lg shadow-2xl max-w-2xl">
-        <h3 className="text-2xl font-bold mb-4 text-center">
-          A continuación se presenta un vídeo demostrativo
-        </h3>
-        <div className="space-y-3 text-lg">
-          <div className="flex items-center space-x-3">
-            <span className="text-2xl">📊</span>
-            <span>Captación de señales EMG en tiempo real</span>
+      title: "Demostración Práctica",
+      content: (
+        <div className="flex flex-col items-center justify-center h-full space-y-8">
+          <h2 className="text-4xl font-bold text-blue-800 text-center">
+            Verificación del sistema en funcionamiento
+          </h2>
+          <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-8 rounded-lg shadow-2xl max-w-2xl">
+            <h3 className="text-2xl font-bold mb-4 text-center">
+              A continuación se presenta un vídeo demostrativo
+            </h3>
+            <div className="space-y-3 text-lg">
+              <div className="flex items-center space-x-3">
+                <span className="text-2xl">📊</span>
+                <span>Captación de señales EMG en tiempo real</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-2xl">🤖</span>
+                <span>Clasificación de los tres gestos</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-2xl">⚙️</span>
+                <span>
+                  Respuesta del servomotor según el movimiento detectado
+                </span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-2xl">💻</span>
+                <span>Salida por consola con nivel de confianza</span>
+              </div>
+            </div>
           </div>
-          <div className="flex items-center space-x-3">
-            <span className="text-2xl">🤖</span>
-            <span>Clasificación de los tres gestos</span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <span className="text-2xl">⚙️</span>
-            <span>
-              Respuesta del servomotor según el movimiento detectado
-            </span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <span className="text-2xl">💻</span>
-            <span>Salida por consola con nivel de confianza</span>
-          </div>
+
+          <a
+            href="https://drive.google.com/file/d/1cVzsvyxQDFD1272_Sp5rj0AJay5A29EA/view?usp=drivesdk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-yellow-100 p-6 rounded-lg border-4 border-yellow-400 text-center hover:bg-yellow-200 transition-all cursor-pointer"
+          >
+            <p className="text-2xl font-bold text-yellow-900">
+              🎬 REPRODUCIR VÍDEO
+            </p>
+          </a>
         </div>
-      </div>
-      
-      <a 
-        href="https://drive.google.com/file/d/1cVzsvyxQDFD1272_Sp5rj0AJay5A29EA/view?usp=drivesdk" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="bg-yellow-100 p-6 rounded-lg border-4 border-yellow-400 text-center hover:bg-yellow-200 transition-all cursor-pointer"
-      >
-        <p className="text-2xl font-bold text-yellow-900">
-          🎬 REPRODUCIR VÍDEO
-        </p>
-      </a>
-    </div>
-  )
-},
+      ),
+    },
     {
       title: "Gracias por su atención",
       content: (
@@ -1109,43 +1118,43 @@ const Presentation = () => {
   };
 
   return (
-  <div className="w-full h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-    <div className="bg-white w-[95%] h-[95vh] max-w-[1800px] rounded-lg shadow-2xl overflow-hidden flex flex-col">
-      <div className="flex-1 p-12 overflow-y-auto">
-        {slides[currentSlide].content}
-      </div>
-
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4 flex justify-between items-center">
-        <button
-          onClick={prevSlide}
-          disabled={currentSlide === 0}
-          className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-        >
-          <ChevronLeft size={20} />
-          <span>Anterior</span>
-        </button>
-
-        <div className="text-center">
-          <p className="text-sm font-semibold">
-            {slides[currentSlide].title}
-          </p>
-          <p className="text-xs mt-1">
-            Diapositiva {currentSlide + 1} de {slides.length}
-          </p>
+    <div className="w-full h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+      <div className="bg-white w-[95%] h-[95vh] max-w-[1800px] rounded-lg shadow-2xl overflow-hidden flex flex-col">
+        <div className="flex-1 p-12 overflow-y-auto">
+          {slides[currentSlide].content}
         </div>
 
-        <button
-          onClick={nextSlide}
-          disabled={currentSlide === slides.length - 1}
-          className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-        >
-          <span>Siguiente</span>
-          <ChevronRight size={20} />
-        </button>
+        <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4 flex justify-between items-center">
+          <button
+            onClick={prevSlide}
+            disabled={currentSlide === 0}
+            className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+          >
+            <ChevronLeft size={20} />
+            <span>Anterior</span>
+          </button>
+
+          <div className="text-center">
+            <p className="text-sm font-semibold">
+              {slides[currentSlide].title}
+            </p>
+            <p className="text-xs mt-1">
+              Diapositiva {currentSlide + 1} de {slides.length}
+            </p>
+          </div>
+
+          <button
+            onClick={nextSlide}
+            disabled={currentSlide === slides.length - 1}
+            className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+          >
+            <span>Siguiente</span>
+            <ChevronRight size={20} />
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
 };
 
 export default Presentation;
