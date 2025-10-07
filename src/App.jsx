@@ -46,6 +46,157 @@ const Presentation = () => {
       ),
     },
     {
+      title: "Índice",
+      content: (
+        <div className="flex flex-col justify-center h-full space-y-6 px-8">
+          <h2 className="text-4xl font-bold text-blue-900 text-center mb-4">
+            Índice de Contenidos
+          </h2>
+          <div className="w-32 h-1 bg-blue-600 mx-auto mb-6"></div>
+
+          <div className="grid grid-cols-2 gap-4">
+            {/* Columna izquierda */}
+            <div className="space-y-3">
+              <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-lg shadow-md border-l-4 border-blue-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    1
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Contexto y Motivación
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-4 rounded-lg shadow-md border-l-4 border-purple-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    2
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Objetivos del Proyecto
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-red-50 to-red-100 p-4 rounded-lg shadow-md border-l-4 border-red-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    3
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Estado del Arte
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-green-50 to-green-100 p-4 rounded-lg shadow-md border-l-4 border-green-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    4
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Herramientas de ML Embebido
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-yellow-50 to-yellow-100 p-4 rounded-lg shadow-md border-l-4 border-yellow-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-yellow-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    5
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    NanoEdge AI Studio
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-indigo-50 to-indigo-100 p-4 rounded-lg shadow-md border-l-4 border-indigo-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-indigo-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    6
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Hardware Utilizado
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Columna derecha */}
+            <div className="space-y-3">
+              <div className="bg-gradient-to-r from-pink-50 to-pink-100 p-4 rounded-lg shadow-md border-l-4 border-pink-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-pink-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    7
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Arquitectura del Sistema
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 p-4 rounded-lg shadow-md border-l-4 border-cyan-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-cyan-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    8
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Captación de Datos
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-4 rounded-lg shadow-md border-l-4 border-orange-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-orange-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    9
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Entrenamiento del Modelo
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-4 rounded-lg shadow-md border-l-4 border-teal-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    10
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Firmware de Clasificación
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-lime-50 to-lime-100 p-4 rounded-lg shadow-md border-l-4 border-lime-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-lime-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    11
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Resultados Experimentales
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-violet-50 to-violet-100 p-4 rounded-lg shadow-md border-l-4 border-violet-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-violet-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    12
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Conclusiones y ODS
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
       title: "Contexto y Motivación",
       content: (
         <div className="space-y-6">
@@ -381,25 +532,18 @@ const Presentation = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-blue-50 p-4 rounded-lg shadow-md">
               <div className="flex items-center justify-center space-x-3">
-                
-                <p className="font-semibold">
-                  STM32 Nucleo-L476RG
-                </p>
+                <p className="font-semibold">STM32 Nucleo-L476RG</p>
               </div>
             </div>
             <div className="bg-purple-50 p-4 rounded-lg shadow-md">
               <div className="flex items-center justify-center space-x-3">
                 <span className="text-3xl"></span>
-                <p className="font-semibold">
-                  Sensor EMG AD8232 
-                </p>
+                <p className="font-semibold">Sensor EMG AD8232</p>
               </div>
             </div>
             <div className="bg-green-50 p-4 rounded-lg shadow-md">
               <div className="flex items-center justify-center space-x-3">
-                <p className="font-semibold">
-                  Servomotor SG90
-                </p>
+                <p className="font-semibold">Servomotor SG90</p>
               </div>
             </div>
             <div className="bg-yellow-50 p-4 rounded-lg shadow-md">
@@ -420,14 +564,14 @@ const Presentation = () => {
           <h2 className="text-2xl font-bold text-blue-800 mb-4">
             Montaje real con sus respectivas conexiones.
           </h2>
-          <div className="flex flex-col items-center justify-center h-full space-y-6"><br/>
+          <div className="flex flex-col items-center justify-center h-full space-y-6">
+            <br />
             <img
               src="/montajeReal.png"
               alt="Hardware utilizado"
               className="w-65 h-65 object-contain"
             />
           </div>
-          
         </div>
       ),
     },
@@ -537,8 +681,7 @@ const Presentation = () => {
           </div>
           <div className="bg-yellow-50 p-3 rounded-lg border-l-4 border-yellow-500">
             <p className="font-semibold text-sm">
-              Reto: Variabilidad por posición de electrodos, fatiga,
-              sudoración
+              Reto: Variabilidad por posición de electrodos, fatiga, sudoración
             </p>
           </div>
         </div>
@@ -723,17 +866,17 @@ const Presentation = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow-md">
+          <div className="bg-red-100 p-4 rounded-lg shadow-md border-l-4 border-red-800">
             <h4 className="font-bold text-gray-800 mb-2">
               Factores de variabilidad:
             </h4>
-            <p className="text-sm">
+            <p className="font-bold text-red-800 text-lg">
               Posición electrodos • Fatiga muscular • Intensidad contracción
             </p>
           </div>
           <div className="bg-blue-100 p-3 rounded-lg border-2 border-blue-600">
             <p className="font-semibold text-center">
-               Mejora implementada: sistema de consenso reduce cambios espurios
+              Mejora implementada: sistema de consenso reduce cambios espurios
             </p>
           </div>
         </div>
@@ -881,45 +1024,51 @@ const Presentation = () => {
       ),
     },
     {
-      title: "Demostración Práctica",
-      content: (
-        <div className="flex flex-col items-center justify-center h-full space-y-8">
-          <h2 className="text-4xl font-bold text-blue-800 text-center">
-            Verificación del sistema en funcionamiento
-          </h2>
-          <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-8 rounded-lg shadow-2xl max-w-2xl">
-            <h3 className="text-2xl font-bold mb-4 text-center">
-              A continuación se presenta un vídeo demostrativo
-            </h3>
-            <div className="space-y-3 text-lg">
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">📊</span>
-                <span>Captación de señales EMG en tiempo real</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">🤖</span>
-                <span>Clasificación de los tres gestos</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">⚙️</span>
-                <span>
-                  Respuesta del servomotor según el movimiento detectado
-                </span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">💻</span>
-                <span>Salida por consola con nivel de confianza</span>
-              </div>
-            </div>
+  title: "Demostración Práctica",
+  content: (
+    <div className="flex flex-col items-center justify-center h-full space-y-8">
+      <h2 className="text-4xl font-bold text-blue-800 text-center">
+        Verificación del sistema en funcionamiento
+      </h2>
+      <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-8 rounded-lg shadow-2xl max-w-2xl">
+        <h3 className="text-2xl font-bold mb-4 text-center">
+          A continuación se presenta un vídeo demostrativo
+        </h3>
+        <div className="space-y-3 text-lg">
+          <div className="flex items-center space-x-3">
+            <span className="text-2xl">📊</span>
+            <span>Captación de señales EMG en tiempo real</span>
           </div>
-          <div className="bg-yellow-100 p-6 rounded-lg border-4 border-yellow-400 text-center">
-            <p className="text-2xl font-bold text-yellow-900">
-              🎬 REPRODUCIR VÍDEO
-            </p>
+          <div className="flex items-center space-x-3">
+            <span className="text-2xl">🤖</span>
+            <span>Clasificación de los tres gestos</span>
+          </div>
+          <div className="flex items-center space-x-3">
+            <span className="text-2xl">⚙️</span>
+            <span>
+              Respuesta del servomotor según el movimiento detectado
+            </span>
+          </div>
+          <div className="flex items-center space-x-3">
+            <span className="text-2xl">💻</span>
+            <span>Salida por consola con nivel de confianza</span>
           </div>
         </div>
-      ),
-    },
+      </div>
+      
+      <a 
+        href="https://drive.google.com/file/d/1cVzsvyxQDFD1272_Sp5rj0AJay5A29EA/view?usp=drivesdk" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="bg-yellow-100 p-6 rounded-lg border-4 border-yellow-400 text-center hover:bg-yellow-200 transition-all cursor-pointer"
+      >
+        <p className="text-2xl font-bold text-yellow-900">
+          🎬 REPRODUCIR VÍDEO
+        </p>
+      </a>
+    </div>
+  )
+},
     {
       title: "Gracias por su atención",
       content: (
@@ -960,43 +1109,43 @@ const Presentation = () => {
   };
 
   return (
-    <div className="w-full h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex flex-col">
-      <div className="flex-1 bg-white m-8 rounded-lg shadow-2xl overflow-hidden flex flex-col">
-        <div className="flex-1 p-12 overflow-y-auto">
-          {slides[currentSlide].content}
+  <div className="w-full h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+    <div className="bg-white w-[95%] h-[95vh] max-w-[1800px] rounded-lg shadow-2xl overflow-hidden flex flex-col">
+      <div className="flex-1 p-12 overflow-y-auto">
+        {slides[currentSlide].content}
+      </div>
+
+      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4 flex justify-between items-center">
+        <button
+          onClick={prevSlide}
+          disabled={currentSlide === 0}
+          className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+        >
+          <ChevronLeft size={20} />
+          <span>Anterior</span>
+        </button>
+
+        <div className="text-center">
+          <p className="text-sm font-semibold">
+            {slides[currentSlide].title}
+          </p>
+          <p className="text-xs mt-1">
+            Diapositiva {currentSlide + 1} de {slides.length}
+          </p>
         </div>
 
-        <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4 flex justify-between items-center">
-          <button
-            onClick={prevSlide}
-            disabled={currentSlide === 0}
-            className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-          >
-            <ChevronLeft size={20} />
-            <span>Anterior</span>
-          </button>
-
-          <div className="text-center">
-            <p className="text-sm font-semibold">
-              {slides[currentSlide].title}
-            </p>
-            <p className="text-xs mt-1">
-              Diapositiva {currentSlide + 1} de {slides.length}
-            </p>
-          </div>
-
-          <button
-            onClick={nextSlide}
-            disabled={currentSlide === slides.length - 1}
-            className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-          >
-            <span>Siguiente</span>
-            <ChevronRight size={20} />
-          </button>
-        </div>
+        <button
+          onClick={nextSlide}
+          disabled={currentSlide === slides.length - 1}
+          className="flex items-center space-x-2 px-4 py-2 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+        >
+          <span>Siguiente</span>
+          <ChevronRight size={20} />
+        </button>
       </div>
     </div>
-  );
+  </div>
+);
 };
 
 export default Presentation;
