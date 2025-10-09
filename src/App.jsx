@@ -181,10 +181,21 @@ const Presentation = () => {
                 </div>
               </div>
 
+              <div className="bg-gradient-to-r from-amber-50 to-amber-100 p-4 rounded-lg shadow-md border-l-4 border-amber-600">
+                <div className="flex items-center space-x-3">
+                  <span className="bg-amber-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                    12
+                  </span>
+                  <span className="font-semibold text-gray-800">
+                    Propuestas de Mejora
+                  </span>
+                </div>
+              </div>
+
               <div className="bg-gradient-to-r from-violet-50 to-violet-100 p-4 rounded-lg shadow-md border-l-4 border-violet-600">
                 <div className="flex items-center space-x-3">
                   <span className="bg-violet-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    12
+                    13
                   </span>
                   <span className="font-semibold text-gray-800">
                     Conclusiones y ODS
@@ -891,6 +902,123 @@ const Presentation = () => {
         </div>
       ),
     },
+    {
+      title: "Propuestas de Mejora",
+      content: (
+        <div className="space-y-5">
+          <h2 className="text-3xl font-bold text-blue-800 mb-4">
+            Líneas futuras de trabajo
+          </h2>
+          
+          {/* Mejoras en Hardware */}
+          <div className="bg-blue-50 p-4 rounded-lg shadow-md border-l-4 border-blue-600">
+            <h3 className="font-bold text-blue-800 mb-3 flex items-center space-x-2">
+              <span className="text-2xl">🔧</span>
+              <span>Mejoras en Hardware</span>
+            </h3>
+            <ul className="space-y-2 text-sm ml-6">
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2">•</span>
+                <span>Electrodos más precisos con fijaciones robustas</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2">•</span>
+                <span>Filtros hardware adicionales para mejorar relación señal/ruido</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2">•</span>
+                <span>Múltiples canales de captación simultáneos</span>
+              </li>
+            </ul>
+          </div>
+    
+          {/* Mejoras en Software */}
+          <div className="bg-purple-50 p-4 rounded-lg shadow-md border-l-4 border-purple-600">
+            <h3 className="font-bold text-purple-800 mb-3 flex items-center space-x-2">
+              <span className="text-2xl">💻</span>
+              <span>Mejoras en Software</span>
+            </h3>
+            <ul className="space-y-2 text-sm ml-6">
+              <li className="flex items-start">
+                <span className="text-purple-600 mr-2">•</span>
+                <span>Normalización adaptativa que se ajuste a cada usuario en tiempo real</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-purple-600 mr-2">•</span>
+                <span>Sistema de consenso optimizado para reducir falsos positivos</span>
+              </li>
+            </ul>
+          </div>
+    
+          {/* Entrenamiento Incremental - Destacado */}
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 p-5 rounded-lg shadow-lg border-2 border-red-600">
+            <h3 className="font-bold text-red-800 mb-4 flex items-center space-x-2 text-xl">
+              <span className="text-3xl">⭐</span>
+              <span>Entrenamiento Incremental por Fases</span>
+            </h3>
+            
+            {/* Fases del entrenamiento incremental */}
+            <div className="flex items-center justify-between mb-4 space-x-2">
+              <div className="flex-1 bg-white p-3 rounded-lg shadow-md text-center">
+                <div className="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg mx-auto mb-2">
+                  1
+                </div>
+                <p className="text-xs font-semibold text-gray-800">
+                  Entrenar con 2 gestos diferenciados
+                </p>
+                <p className="text-xs text-gray-600 mt-1">
+                  (Mano abierta/cerrada)
+                </p>
+              </div>
+              
+              <div className="text-3xl text-red-600 font-bold">→</div>
+              
+              <div className="flex-1 bg-white p-3 rounded-lg shadow-md text-center">
+                <div className="bg-orange-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg mx-auto mb-2">
+                  2
+                </div>
+                <p className="text-xs font-semibold text-gray-800">
+                  Validar modelo base
+                </p>
+                <p className="text-xs text-gray-600 mt-1">
+                  (≈100% precisión)
+                </p>
+              </div>
+              
+              <div className="text-3xl text-red-600 font-bold">→</div>
+              
+              <div className="flex-1 bg-white p-3 rounded-lg shadow-md text-center">
+                <div className="bg-yellow-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg mx-auto mb-2">
+                  3
+                </div>
+                <p className="text-xs font-semibold text-gray-800">
+                  Incorporar 3º gesto
+                </p>
+                <p className="text-xs text-gray-600 mt-1">
+                  (Rotación muñeca)
+                </p>
+              </div>
+            </div>
+    
+            {/* Ventajas */}
+            <div className="bg-green-100 p-3 rounded-lg border-l-4 border-green-600">
+              <p className="text-sm">
+                <span className="font-bold text-green-800">Ventajas:</span>
+                <span className="text-gray-800"> Reduce confusión entre clases similares | Facilita debugging temprano | Escalable a más gestos | Aprendizaje progresivo más robusto</span>
+              </p>
+            </div>
+          </div>
+    
+          {/* Nota final */}
+          <div className="bg-blue-100 p-3 rounded-lg border-2 border-blue-600">
+            <p className="font-semibold text-center text-blue-900">
+              📈 Esta estrategia permitiría extender el sistema a 4, 5 o más gestos de forma controlada
+            </p>
+          </div>
+        </div>
+      ),
+    },
+
     {
       title: "Cronograma y Presupuesto",
       content: (
