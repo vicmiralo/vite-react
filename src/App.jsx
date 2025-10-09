@@ -55,7 +55,7 @@ const Presentation = () => {
           <div className="w-32 h-1 bg-blue-600 mx-auto mb-6"></div>
 
           <div className="grid grid-cols-2 gap-4">
-            {/* Columna izquierda */}
+            {/* Columna izquierda - Apartados 1-7 */}
             <div className="space-y-3">
               <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-lg shadow-md border-l-4 border-blue-600">
                 <div className="flex items-center space-x-3">
@@ -122,8 +122,7 @@ const Presentation = () => {
                   </span>
                 </div>
               </div>
-            </div>
-            <div className="space-y-3">
+
               <div className="bg-gradient-to-r from-pink-50 to-pink-100 p-4 rounded-lg shadow-md border-l-4 border-pink-600">
                 <div className="flex items-center space-x-3">
                   <span className="bg-pink-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
@@ -134,9 +133,10 @@ const Presentation = () => {
                   </span>
                 </div>
               </div>
+            </div>
 
-            {/* Columna derecha */}
-              
+            {/* Columna derecha - Apartados 8-14 */}
+            <div className="space-y-3">
               <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 p-4 rounded-lg shadow-md border-l-4 border-cyan-600">
                 <div className="flex items-center space-x-3">
                   <span className="bg-cyan-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
@@ -202,9 +202,10 @@ const Presentation = () => {
                   </span>
                 </div>
               </div>
-              <div className="bg-gradient-to-r from-red-50 to-red-100 p-4 rounded-lg shadow-md border-l-4 border-red-600">
+
+              <div className="bg-gradient-to-r from-rose-50 to-rose-100 p-4 rounded-lg shadow-md border-l-4 border-rose-600">
                 <div className="flex items-center space-x-3">
-                  <span className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  <span className="bg-rose-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
                     14
                   </span>
                   <span className="font-semibold text-gray-800">
