@@ -1087,7 +1087,7 @@ const Presentation = () => {
               <div className="space-y-3">
                 <div className="bg-green-50 p-3 rounded-lg">
                   <p className="text-sm text-gray-700">Materiales</p>
-                  <p className="text-2xl font-bold text-green-700">~53€</p>
+                  <p className="text-2xl font-bold text-green-700">~45€</p>
                   <p className="text-xs text-gray-600 mt-1">Muy bajo coste</p>
                 </div>
                 <div className="bg-blue-50 p-3 rounded-lg">
