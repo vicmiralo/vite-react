@@ -674,7 +674,7 @@ const Presentation = () => {
       ),
     },
     {
-      title: "Metodología - Captación de Datos",
+      title: "Captación de Datos",
       content: (
         <div className="space-y-5">
           <h2 className="text-2xl font-bold text-blue-800 mb-4">
