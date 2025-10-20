@@ -70,7 +70,7 @@ const Presentation = () => {
                   Contexto y Motivación
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 3</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 3</span>
             </div>
           </button>
 
@@ -87,7 +87,7 @@ const Presentation = () => {
                   Objetivos del Proyecto
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 4</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 4</span>
             </div>
           </button>
 
@@ -104,7 +104,7 @@ const Presentation = () => {
                   Estado del Arte
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 5</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 5</span>
             </div>
           </button>
 
@@ -121,7 +121,7 @@ const Presentation = () => {
                   Herramientas de ML Embebido
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slides 6-7</span>
+              <span className="text-xs text-gray-500 font-mono">Diaps. 6-7</span>
             </div>
           </button>
 
@@ -138,7 +138,7 @@ const Presentation = () => {
                   Hardware Utilizado
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slides 8-9</span>
+              <span className="text-xs text-gray-500 font-mono">Diaps. 8-9</span>
             </div>
           </button>
 
@@ -155,7 +155,7 @@ const Presentation = () => {
                   Arquitectura del Sistema
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 10</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 10</span>
             </div>
           </button>
 
@@ -172,7 +172,7 @@ const Presentation = () => {
                   Captación de Datos
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 11</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 11</span>
             </div>
           </button>
         </div>
@@ -192,7 +192,7 @@ const Presentation = () => {
                   Entrenamiento del Modelo
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 12</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 12</span>
             </div>
           </button>
 
@@ -209,7 +209,7 @@ const Presentation = () => {
                   Firmware de Clasificación
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 13</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 13</span>
             </div>
           </button>
 
@@ -226,7 +226,7 @@ const Presentation = () => {
                   Resultados Experimentales
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 14</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 14</span>
             </div>
           </button>
 
@@ -243,7 +243,7 @@ const Presentation = () => {
                   Propuestas de Mejora
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 15</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 15</span>
             </div>
           </button>
 
@@ -260,7 +260,7 @@ const Presentation = () => {
                   Cronograma y Presupuesto
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 16</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 16</span>
             </div>
           </button>
 
@@ -277,7 +277,7 @@ const Presentation = () => {
                   Conclusiones y ODS
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 17</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 17</span>
             </div>
           </button>
 
@@ -294,7 +294,7 @@ const Presentation = () => {
                   Demostración Práctica
                 </span>
               </div>
-              <span className="text-xs text-gray-500 font-mono">Slide 18</span>
+              <span className="text-xs text-gray-500 font-mono">Diap. 18</span>
             </div>
           </button>
         </div>
