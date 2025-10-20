@@ -46,178 +46,262 @@ const Presentation = () => {
       ),
     },
     {
-      title: "Índice",
-      content: (
-        <div className="flex flex-col justify-center h-full space-y-6 px-8">
-          <h2 className="text-4xl font-bold text-blue-900 text-center mb-4">
-            Índice de Contenidos
-          </h2>
-          <div className="w-32 h-1 bg-blue-600 mx-auto mb-6"></div>
+  title: "Índice",
+  content: (
+    <div className="flex flex-col justify-center h-full space-y-6 px-8">
+      <h2 className="text-4xl font-bold text-blue-900 text-center mb-4">
+        Índice de Contenidos
+      </h2>
+      <div className="w-32 h-1 bg-blue-600 mx-auto mb-6"></div>
 
-          <div className="grid grid-cols-2 gap-4">
-            {/* Columna izquierda - Apartados 1-7 */}
-            <div className="space-y-3">
-              <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-lg shadow-md border-l-4 border-blue-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    1
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Contexto y Motivación
-                  </span>
-                </div>
+      <div className="grid grid-cols-2 gap-4">
+        {/* Columna izquierda - Apartados 1-7 */}
+        <div className="space-y-3">
+          <button
+            onClick={() => setCurrentSlide(2)}
+            className="w-full bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-lg shadow-md border-l-4 border-blue-600 hover:from-blue-100 hover:to-blue-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  1
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Contexto y Motivación
+                </span>
               </div>
-
-              <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-4 rounded-lg shadow-md border-l-4 border-purple-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    2
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Objetivos del Proyecto
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-red-50 to-red-100 p-4 rounded-lg shadow-md border-l-4 border-red-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    3
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Estado del Arte
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-green-50 to-green-100 p-4 rounded-lg shadow-md border-l-4 border-green-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    4
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Herramientas de ML Embebido
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-yellow-50 to-yellow-100 p-4 rounded-lg shadow-md border-l-4 border-yellow-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-yellow-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    5
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Hardware Utilizado
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-indigo-50 to-indigo-100 p-4 rounded-lg shadow-md border-l-4 border-indigo-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-indigo-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    6
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Arquitectura del Sistema
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-pink-50 to-pink-100 p-4 rounded-lg shadow-md border-l-4 border-pink-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-pink-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    7
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Captación de Datos
-                  </span>
-                </div>
-              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 3</span>
             </div>
+          </button>
 
-            {/* Columna derecha - Apartados 8-14 */}
-            <div className="space-y-3">
-              <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 p-4 rounded-lg shadow-md border-l-4 border-cyan-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-cyan-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    8
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Entrenamiento del Modelo
-                  </span>
-                </div>
+          <button
+            onClick={() => setCurrentSlide(3)}
+            className="w-full bg-gradient-to-r from-purple-50 to-purple-100 p-4 rounded-lg shadow-md border-l-4 border-purple-600 hover:from-purple-100 hover:to-purple-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  2
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Objetivos del Proyecto
+                </span>
               </div>
-
-              <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-4 rounded-lg shadow-md border-l-4 border-orange-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-orange-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    9
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Firmware de Clasificación
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-4 rounded-lg shadow-md border-l-4 border-teal-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    10
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Resultados Experimentales
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-lime-50 to-lime-100 p-4 rounded-lg shadow-md border-l-4 border-lime-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-lime-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    11
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Propuestas de Mejora
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-amber-50 to-amber-100 p-4 rounded-lg shadow-md border-l-4 border-amber-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-amber-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    12
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Cronograma y Presupuesto
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-violet-50 to-violet-100 p-4 rounded-lg shadow-md border-l-4 border-violet-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-violet-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    13
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Conclusiones y ODS
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-r from-rose-50 to-rose-100 p-4 rounded-lg shadow-md border-l-4 border-rose-600">
-                <div className="flex items-center space-x-3">
-                  <span className="bg-rose-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                    14
-                  </span>
-                  <span className="font-semibold text-gray-800">
-                    Demostración Práctica
-                  </span>
-                </div>
-              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 4</span>
             </div>
-          </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(4)}
+            className="w-full bg-gradient-to-r from-red-50 to-red-100 p-4 rounded-lg shadow-md border-l-4 border-red-600 hover:from-red-100 hover:to-red-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  3
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Estado del Arte
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 5</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(5)}
+            className="w-full bg-gradient-to-r from-green-50 to-green-100 p-4 rounded-lg shadow-md border-l-4 border-green-600 hover:from-green-100 hover:to-green-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  4
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Herramientas de ML Embebido
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slides 6-7</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(7)}
+            className="w-full bg-gradient-to-r from-yellow-50 to-yellow-100 p-4 rounded-lg shadow-md border-l-4 border-yellow-600 hover:from-yellow-100 hover:to-yellow-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-yellow-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  5
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Hardware Utilizado
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slides 8-9</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(9)}
+            className="w-full bg-gradient-to-r from-indigo-50 to-indigo-100 p-4 rounded-lg shadow-md border-l-4 border-indigo-600 hover:from-indigo-100 hover:to-indigo-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-indigo-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  6
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Arquitectura del Sistema
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 10</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(10)}
+            className="w-full bg-gradient-to-r from-pink-50 to-pink-100 p-4 rounded-lg shadow-md border-l-4 border-pink-600 hover:from-pink-100 hover:to-pink-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-pink-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  7
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Captación de Datos
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 11</span>
+            </div>
+          </button>
         </div>
-      ),
-    },
+
+        {/* Columna derecha - Apartados 8-14 */}
+        <div className="space-y-3">
+          <button
+            onClick={() => setCurrentSlide(11)}
+            className="w-full bg-gradient-to-r from-cyan-50 to-cyan-100 p-4 rounded-lg shadow-md border-l-4 border-cyan-600 hover:from-cyan-100 hover:to-cyan-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-cyan-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  8
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Entrenamiento del Modelo
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 12</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(12)}
+            className="w-full bg-gradient-to-r from-orange-50 to-orange-100 p-4 rounded-lg shadow-md border-l-4 border-orange-600 hover:from-orange-100 hover:to-orange-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-orange-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  9
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Firmware de Clasificación
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 13</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(13)}
+            className="w-full bg-gradient-to-r from-teal-50 to-teal-100 p-4 rounded-lg shadow-md border-l-4 border-teal-600 hover:from-teal-100 hover:to-teal-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  10
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Resultados Experimentales
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 14</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(14)}
+            className="w-full bg-gradient-to-r from-lime-50 to-lime-100 p-4 rounded-lg shadow-md border-l-4 border-lime-600 hover:from-lime-100 hover:to-lime-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-lime-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  11
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Propuestas de Mejora
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 15</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(15)}
+            className="w-full bg-gradient-to-r from-amber-50 to-amber-100 p-4 rounded-lg shadow-md border-l-4 border-amber-600 hover:from-amber-100 hover:to-amber-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-amber-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  12
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Cronograma y Presupuesto
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 16</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(16)}
+            className="w-full bg-gradient-to-r from-violet-50 to-violet-100 p-4 rounded-lg shadow-md border-l-4 border-violet-600 hover:from-violet-100 hover:to-violet-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-violet-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  13
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Conclusiones y ODS
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 17</span>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentSlide(17)}
+            className="w-full bg-gradient-to-r from-rose-50 to-rose-100 p-4 rounded-lg shadow-md border-l-4 border-rose-600 hover:from-rose-100 hover:to-rose-200 transition-all cursor-pointer"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <span className="bg-rose-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                  14
+                </span>
+                <span className="font-semibold text-gray-800 text-left">
+                  Demostración Práctica
+                </span>
+              </div>
+              <span className="text-xs text-gray-500 font-mono">Slide 18</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  ),
+},
     {
       title: "Contexto y Motivación",
       content: (
