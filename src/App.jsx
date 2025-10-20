@@ -107,7 +107,7 @@ const Presentation = () => {
                     5
                   </span>
                   <span className="font-semibold text-gray-800">
-                    NanoEdge AI Studio
+                    Hardware Utilizado
                   </span>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const Presentation = () => {
                     6
                   </span>
                   <span className="font-semibold text-gray-800">
-                    Hardware Utilizado
+                    Arquitectura del Sistema
                   </span>
                 </div>
               </div>
@@ -129,7 +129,7 @@ const Presentation = () => {
                     7
                   </span>
                   <span className="font-semibold text-gray-800">
-                    Arquitectura del Sistema
+                    Captación de Datos
                   </span>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const Presentation = () => {
                     8
                   </span>
                   <span className="font-semibold text-gray-800">
-                    Captación de Datos
+                    Entrenamiento del Modelo
                   </span>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Presentation = () => {
                     9
                   </span>
                   <span className="font-semibold text-gray-800">
-                    Entrenamiento del Modelo
+                    Firmware de Clasificación
                   </span>
                 </div>
               </div>
@@ -165,7 +165,7 @@ const Presentation = () => {
                     10
                   </span>
                   <span className="font-semibold text-gray-800">
-                    Firmware de Clasificación
+                    Resultados Experimentales
                   </span>
                 </div>
               </div>
@@ -176,7 +176,7 @@ const Presentation = () => {
                     11
                   </span>
                   <span className="font-semibold text-gray-800">
-                    Resultados Experimentales
+                    Propuestas de Mejora
                   </span>
                 </div>
               </div>
@@ -187,7 +187,7 @@ const Presentation = () => {
                     12
                   </span>
                   <span className="font-semibold text-gray-800">
-                    Propuestas de Mejora
+                    Cronograma y Presupuesto
                   </span>
                 </div>
               </div>
