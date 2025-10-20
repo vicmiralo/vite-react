@@ -476,7 +476,7 @@ const Presentation = () => {
       ),
     },
     {
-      title: "¿Por qué NanoEdge AI Studio?",
+      title: "Herramientas de ML Embebido",
       content: (
         <div className="space-y-5">
           <h2 className="text-3xl font-bold text-blue-800 mb-6">
