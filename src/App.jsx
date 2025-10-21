@@ -612,7 +612,7 @@ const Presentation = () => {
           <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-blue-600">
             <p className="font-semibold text-lg">
               Tipo de proyecto usado:{" "}
-              <span className="text-blue-600">N-Classify</span>
+              <span className="text-blue-600">Classify</span>
             </p>
             <p className="text-sm text-gray-700 mt-1">
               (Clasificación supervisada de 3 clases)
