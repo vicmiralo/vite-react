@@ -1293,41 +1293,38 @@ const Presentation = () => {
       ),
     },
     {
-      title: "Gracias por su atención",
-      content: (
-        <div className="flex flex-col items-center justify-center h-full space-y-8">
-          <h1 className="text-5xl font-bold text-blue-900 text-center">
-            ¿Preguntas?
-          </h1>
-          <div className="w-32 h-1 bg-blue-600"></div>
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-lg shadow-2xl max-w-2xl text-center">
-            <p className="text-2xl font-bold mb-4">Víctor Miranda Alonso</p>
-            <p className="text-lg mb-2">Grado en Ingeniería Informática</p>
-            <p className="text-lg">Ingeniería de Computadores</p>
-            <p className="text-lg mt-4">Universidad de Sevilla • 2025</p>
-          </div>
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md text-center">
-            <p className="font-semibold text-gray-700 mb-2">
-              Repositorio GitHub:
-            </p>
-            <p className="text-blue-600 font-mono text-sm">
-              github.com/vicmiralo/NanoEdgEMG
-            </p>
-             href="https://vicmiralo.github.io/kit-educativo/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all inline-block no-underline shadow-md mt-4 max-w-md"
-            >
-              <div className="flex items-center justify-center space-x-2">
-                <span>🎓</span>
-                <div className="text-left">
-                  <p className="text-sm font-bold">Kit Educativo</p>
-                  <p className="text-xs opacity-90">Versión Beta</p>
-                </div>
-              </div>
-            </a>
-      ),
-    },
+  title: "Gracias por su atención",
+  content: (
+    <div className="flex flex-col items-center justify-center h-full space-y-8">
+      <h1 className="text-5xl font-bold text-blue-900 text-center">
+        ¿Preguntas?
+      </h1>
+      <div className="w-32 h-1 bg-blue-600"></div>
+      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-lg shadow-2xl max-w-2xl text-center">
+        <p className="text-2xl font-bold mb-4">Víctor Miranda Alonso</p>
+        <p className="text-lg mb-2">Grado en Ingeniería Informática</p>
+        <p className="text-lg">Ingeniería de Computadores</p>
+        <p className="text-lg mt-4">Universidad de Sevilla • 2025</p>
+      </div>
+      <div className="bg-blue-50 p-6 rounded-lg shadow-md text-center">
+        <p className="font-semibold text-gray-700 mb-2">
+          Repositorio GitHub:
+        </p>
+        <p className="text-blue-600 font-mono text-sm">
+          github.com/vicmiralo/NanoEdgEMG
+        </p>
+        
+          href="https://vicmiralo.github.io/kit-educativo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all inline-block no-underline shadow-md mt-4"
+        >
+          🔗 Ver Página web beta de kit educativo / investigación
+        </a>
+      </div>
+    </div>
+  ),
+},
   ];
 
   const nextSlide = () => {
