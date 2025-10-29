@@ -1313,6 +1313,12 @@ const Presentation = () => {
             <p className="text-blue-600 font-mono text-sm">
               github.com/vicmiralo/NanoEdgEMG
             </p>
+             <p className="font-semibold text-gray-700 mb-2">
+              Página web beta kit educativo:
+            </p>
+            <p className="text-blue-600 font-mono text-sm">
+              https://vicmiralo.github.io/kit-educativo/
+            </p>
           </div>
         </div>
       ),
