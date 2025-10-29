@@ -1316,12 +1316,16 @@ const Presentation = () => {
              href="https://vicmiralo.github.io/kit-educativo/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all inline-block no-underline shadow-md mt-4"
+              className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all inline-block no-underline shadow-md mt-4 max-w-md"
             >
-              🔗 Ver Página web beta de kit educativo / investigación
+              <div className="flex items-center justify-center space-x-2">
+                <span>🎓</span>
+                <div className="text-left">
+                  <p className="text-sm font-bold">Kit Educativo</p>
+                  <p className="text-xs opacity-90">Versión Beta</p>
+                </div>
+              </div>
             </a>
-          </div>
-        </div>
       ),
     },
   ];
