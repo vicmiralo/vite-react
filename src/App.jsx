@@ -342,15 +342,6 @@ const Presentation = () => {
                 portátiles y de respuesta inmediata
               </p>
             </div>
-
-            <div className="flex flex-col items-center justify-center h-full space-y-6">
-              <br />
-              <img
-                src="/introduccion.png"
-                alt="Imagen orientativa de la captación de señales EMG superficiales mediante banda elástica y visualización en ordenador."
-                className="w-65 h-60 object-contain"
-              />
-            </div>
           </div>
         </div>
       ),
@@ -647,7 +638,7 @@ const Presentation = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-blue-50 p-4 rounded-lg shadow-md">
               <div className="flex items-center justify-center space-x-3">
-                <p className="font-semibold">STM32 Nucleo-L476RG</p>
+                <p className="font-semibold">STM32 Nucleo-L4S5</p>
               </div>
             </div>
             <div className="bg-purple-50 p-4 rounded-lg shadow-md">
